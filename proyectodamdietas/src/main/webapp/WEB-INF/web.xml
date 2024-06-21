@@ -1,0 +1,28 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <servlet>
+        <servlet-name>OpenXavaServlet</servlet-name>
+        <servlet-class>org.openxava.web.servlets.XavaServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>OpenXavaServlet</servlet-name>
+        <url-pattern>/MiApp/*</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>xava.classes</param-name>
+        <param-value>com.antoni.proyectodamdietas.modelo</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>xava.modules</param-name>
+        <param-value>Admin, Dieta</param-value>
+    </context-param>
+</web-app>
+
+

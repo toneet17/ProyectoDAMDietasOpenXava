@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/detailCSS.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Detalle Oferta</title>
+</head>
+<body>
+    <div class="container d-flex align-items-center justify-content-center min-vh-100">
+        <div class="offer-box text-center row bg-light rounded-3 pb-5 pt-5 d-flex justify-content-center">
+            <h1 class="col-12">(OCUPACION)</h1>
+            <!-- Este boton solo saldrá en el caso de que el metodo sea de inscripcion -->
+            <div class="col-12 text-center mt-3">
+                <button class="btn btn-danger col-4 p-2"><a href="#" class="text-white">INSCRIBIRME EN LA OFERTA</a></button>
+            </div>
+            <div class="col-10 bg-secondary rounded-3 mt-4 p-2 pb-0 text-start text-white">
+                <div class="descripcion col-12 p-2 border-bottom border-black">
+                    <span class="fw-bold fs-3 p-2">Descripción</span>
+                    <p class="p-2 pb-0">
+                        <!-- descripcion de la oferta -->
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium excepturi eius, nihil doloribus laboriosam exercitationem. Quia cum quae in culpa rem? Voluptate architecto nesciunt minus debitis sed earum, perferendis nisi.
+                    </p>
+                </div>
+                <div class="requisitos col-12 p-2 border-bottom border-black">
+                    <span class="fw-bold fs-3 p-2">Ciclos Requeridos</span>
+                        <ul class="list-group list-group-horizontal pb-0 p-2">
+                            <!--CADA li es un ciclo -->
+                            <li class="list-group-item border-0 bg-secondary text-white">DAW</li>
+                            <li class="list-group-item border-0 bg-secondary text-white">DAM</li>
+                            <li class="list-group-item border-0 bg-secondary text-white">EDU</li>
+                        </ul>
+                </div>
+                <div class="contrato col-12 p-2">
+                    <span class="fw-bold fs-3 p-2">Contrato</span>
+                    <p class="p-2 pb-0">
+                        <!-- TIEMPO DE CONTRATO OFERTA -->
+                        12 meses
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
